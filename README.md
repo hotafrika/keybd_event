@@ -1,3 +1,13 @@
+This is a fork of [original library](https://github.com/micmonay/keybd_event).
+
+I just updated imports to support the latest MacOS versions.
+
+As the original library owner doesn't accept pull requests,
+I also edited `go.mod` file (**I don't have the intention to steal the lib**) to be able to use it in your project directly:
+```
+github.com/hotafrika/keybd_event v1.2.0
+```
+
 # keybd_event
 
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/micmonay/keybd_event)
